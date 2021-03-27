@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Weather report: Burnaby, Canada
+
+     \  /       Partly cloudy
+   _ /"".-.     6 C           
+     \_(   ).    17 km/h      
+     /(___(__)  32 km          
+                0.0 mm "
