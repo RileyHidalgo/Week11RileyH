@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo "enter a process name"
+read process
+ps -e -o pid,pmem | awk '{  if($process) s+=$2} END {print s}'
+
