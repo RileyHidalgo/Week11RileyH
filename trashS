@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+if [ ! -d /home/vagrant/trash ] 
+then
+	mkdir -p /home/vagrant/trash
+fi
+
+for file in "$@"
+    do
+	mv "$file" ~/trash/
+    done 
